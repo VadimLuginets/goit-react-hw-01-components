@@ -18,6 +18,7 @@ export const Profile = styled.div`
   background-color: #627d7d;
   width: fit-content;
   align-items: center;
+  height: fit-content;
 `;
 
 export const Stats = styled.ul`

@@ -4,4 +4,5 @@ export const Main = styled.div`
   width: fit-content;
   display: flex;
   flex-wrap: wrap;
+  color: white;
 `;

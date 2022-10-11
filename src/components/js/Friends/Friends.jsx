@@ -9,9 +9,17 @@ export default function Friends({ props }) {
           key={p.id}
           isOnline={
             p.isOnline ? (
-              <TiMediaRecord color="green" />
+              <TiMediaRecord
+                color="green"
+                size={'1.25em'}
+                style={{ margin: '0 10px 0 0' }}
+              />
             ) : (
-              <TiMediaRecord color="red" />
+              <TiMediaRecord
+                color="red"
+                size={'1.25em'}
+                style={{ margin: '0 10px 0 0' }}
+              />
             )
           }
           avatar={p.avatar}
