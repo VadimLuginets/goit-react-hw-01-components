@@ -17,10 +17,11 @@ export default function TransactionHistory({ data }) {
           <TableHeaderEl>Currency</TableHeaderEl>
         </Row>
       </TableHeader>
-      {data.map(obj => (
-        <FillingTableElements data={obj} />
-      ))}
-      <TableBody></TableBody>
+      <TableBody>
+        {data.map(obj => (
+          <FillingTableElements key={obj.id} data={obj} />
+        ))}
+      </TableBody>
     </Table>
   );
 }
